@@ -27,35 +27,36 @@ db.on("error",()=>{
 db.once("open", () => {
      // Calling routes  here'
      console.log("Connected to Database ");
-    //  init()
+     init()
 })
 
-//  async function init(){
+ async function init(){
     
-//        let user = await user_model.findOne({userId:"admin"})
+       let user = await user_model.findOne({userId:"admin"})
 
-//         if(user){
-//          console.log("Admin User Already Present")
-//          return
-//     }
+        if(user){
+         console.log("Admin User Already Present")
+         return
+    }
    
-//     try {
-//         user = await user_model.create({
-//             name:"mayank",
-//             userId:"admin",
-//             email: 'mayank@gmail.com',
-//             password:bcrypt.hashSync('1234567890' , 10),
-//             userType: "ADMIN",
-//         })
-//         console.log("Admin User Created Successfully : ",user);
+    try {
+        user = await user_model.create({
+            name:"mayank",
+            userId:"admin",
+            email: 'mayank@gmail.com',
+            password:bcrypt.hashSync('1234567890' , 10),
+            userType: "ADMIN",
+        })
+        console.log("Admin User Created Successfully : ",user);
         
-//     } catch (err) {
-//         console.error("Error creating admin user:", err); 
-//     }
-// }
+    } catch (err) {
+        console.error("Error creating admin user:", err); 
+    }
+}
 
 // // route the a server//
-// require("./Routes/Auth.routes")(app)
+require("./Routes/Auth.routes")(app)
+require("./Routes/category.routes")(app)
 
 // start server //
 
