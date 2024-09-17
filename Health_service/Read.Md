@@ -35,8 +35,11 @@ Start the server:
 npm start
 
 API Endpoints
-POST /api/services: Add a new healthcare service
-GET /api/services: Get all services
-PUT /api/services/:id: Update a service by ID
-DELETE /api/services/:id: Delete a service by ID
+[POST /api/services: Add a new healthcare service] 
+
+[GET /api/services: Get all services]
+
+[PUT /api/services/:id: Update a service by ID]
+
+[DELETE /api/services/:id: Delete a service by ID]
 
