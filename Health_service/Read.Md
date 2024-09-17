@@ -19,19 +19,27 @@
 ## Setup Instructions
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd healthcare-service-api
+git clone <repository-url>
+
+cd healthcare-service-api
  
  Install dependencies:
+
     npm install
-    npm install express mongoose body-parser
+
+    
+npm install express mongoose body-parser
+
     npm install --save-dev nodemon
 
-Create a .env file and add your MongoDB connection string:
+
+Create a .env file and add your MongoDB 
+
+connection string:
 MONGO_URI=mongodb://localhost:27017/healthcare_services
  
 Start the server:
+
 npm start
 
 API Endpoints
