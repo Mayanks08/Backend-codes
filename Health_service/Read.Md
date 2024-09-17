@@ -19,7 +19,7 @@
 ## Setup Instructions
 
 1. Clone the repository:
-git clone <repository-url>
+git clone <https://github.com/Mayanks08/Backend-codes/edit/main/Health_service>
 
 cd healthcare-service-api
  
