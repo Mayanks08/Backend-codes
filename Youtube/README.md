@@ -1,11 +1,11 @@
 
-YouTube Clone Backend
+<h1>YouTube Clone Backend</h1>
 
 A full-featured YouTube-like video streaming backend application built with modern web technologies.
 This backend supports core video platform features including user authentication, video uploads, history tracking, subscriptions, 
 likes/comments, channel dashboards, playlists, and more.
 
-🚀 Features
+<h1>🚀 Features</h1>
 🔐 User Authentication (Login / Register / JWT tokens)
 
 🎬 Video Upload & Streaming
@@ -32,6 +32,8 @@ likes/comments, channel dashboards, playlists, and more.
 
 ⏳ Watch Later & Save Video
 
+<h1>Tech Stack</h1>
+
 ```
 Backend Framework: Node.js / Express.js
 
@@ -43,7 +45,8 @@ Cloud Storage: AWS S3 / Cloudinary
 
 ```
 
-Project Structure
+<h1>Project Structure</h1>
+
 ```
 youtube-clone-backend/
 ├── controllers/
@@ -58,6 +61,8 @@ youtube-clone-backend/
 └── README.md
 
 ```
+
+<h1>Loacally SetUp</h1>
 
 ```
 # Clone the repo
@@ -76,7 +81,7 @@ npm run dev
 
 ```
 
- End Points Collection
+ <h1>End Points Collection</h1>
 
 ``` Method	Endpoint	Description
 POST	/api/auth/register	Register a new user
